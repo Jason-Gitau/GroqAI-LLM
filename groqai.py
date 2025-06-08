@@ -1,7 +1,7 @@
 from groq import Groq
 # This library allows us to interact with Groq’s API, which gives us access to powerful language models (LLMs) like the one we’re using (llama-3.3-70b-versatile)
 
-client = Groq(api_key="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")
+client = Groq(api_key="...your api key...")
 # This line creates a client object that we can use to interact with the Groq API. The api_key is a unique identifier that allows us to authenticate with the API and access its features.
 
 chat_completion = client.chat.completions.create(
